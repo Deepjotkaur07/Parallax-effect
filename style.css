@@ -1,0 +1,55 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body, html {
+    height:50%;
+    font-family: 'Arial', sans-serif;
+    background-color:rgb(27, 15, 25);
+}
+.heading{
+    text-align: center;
+    font-size:30px;
+    color:rgb(145, 104, 124);
+    margin:40px  0;
+    text-transform: uppercase;
+    letter-spacing: "6px";
+    transition: "0.3sec";
+    cursor: pointer;
+}
+.heading:hover{
+     color: rgb(211, 109, 135);
+     text-shadow:0 0 12px #b9678e,0 0 20px rgba #97127a
+}
+.parallax {
+    height:100vh;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.one {
+    background-image: url('images/ab03b2fd41d079ed880641190ba99003.jpg');
+    /* background-image: url('images/721777-rapunzel-wallpaper-disney-princess-wallpaper-fanpop-desktop-background.jpg'); */
+}
+
+.two {
+    background-image: url('images/__1407094863.png');
+}
+
+.three {
+    background-image: url('images/HD-wallpaper-tangled-flinn-boat-rapunzel-love.jpg');
+}
+
+.content {
+    height:100px;
+    background-color: black;
+    color: rgba(211, 140, 205, 0.548);
+    text-align:center;
+    padding-top: 50px;
+    font-size:0.9rem;
+}
+
